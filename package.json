@@ -1,0 +1,21 @@
+{
+  "name": "oil-change-tracker",
+  "version": "1.0.0",
+  "description": "Simple oil change tracker API",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js", 
+    "dev": "node server.js"
+  },
+  "keywords": [],
+  "author": "Orlando Perez",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.1.0",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  }
+}
